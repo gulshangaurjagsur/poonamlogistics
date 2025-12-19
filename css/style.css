@@ -9598,12 +9598,8 @@ a.whatsapp-floating:hover{
 .serviceBox p{
   padding: 0 16px;
 }
-.carousel-indicators {
-  bottom: -20px;
-}
 .carousel-indicators li{
   background-color: #FF4800;
-  margin-top: 50px;
 }
 .bg2{
   background-color: #F2F2F4;
@@ -9666,4 +9662,12 @@ color: #FF4800
 }
 .footerCopyright{
   border-top: 1px solid #3E3E4E;
+}
+.carousel-indicators {
+    position: relative;
+    z-index: 15;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
 }
