@@ -66,3 +66,8 @@
     });
 
 })(jQuery);
+$(document).on('click', '.carousel-indicators li', function () {
+    var target = $(this).data('target');
+    var slideTo = $(this).data('slide-to');
+    $(target).carousel(slideTo);
+});
